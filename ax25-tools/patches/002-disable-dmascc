@@ -1,0 +1,9 @@
+--- ax25-tools-0.0.10-rc5/dmascc/Makefile.am-orig	2020-05-18 02:54:54.353751222 +0200
++++ ax25-tools-0.0.10-rc5/dmascc/Makefile.am	2020-05-18 02:55:23.673531953 +0200
+@@ -1,5 +1,5 @@
+ 
+-sbin_PROGRAMS = dmascc_cfg
++sbin_PROGRAMS = 
+ 
+ dmascc_cfg_SOURCE = dmascc_cfg.c
+ 

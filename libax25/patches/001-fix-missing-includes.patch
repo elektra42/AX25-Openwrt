@@ -1,0 +1,17 @@
+libax25-0.0.12-rc4/daemon.c.orig
+diff -uN libax25-0.0.12-rc4/daemon.c.orig libax25-0.0.12-rc4/daemon.c
+--- libax25-0.0.12-rc4/daemon.c.orig    2018-03-01 14:07:53.994106025 +0100
++++ libax25-0.0.12-rc4/daemon.c 2018-03-01 14:08:24.870789746 +0100
+@@ -3,11 +3,13 @@
+ #include <stdlib.h>
+ #include <signal.h>
+ #include <errno.h>
++#include <fcntl.h>
+ 
+ #include <sys/param.h>
+ #include <sys/file.h>
+ #include <sys/ioctl.h>
+ #include <sys/stat.h>
++#include <sys/types.h>
+ 
+ #include <netax25/daemon.h>
