@@ -2,7 +2,7 @@
 
 AX.25 packages for Openwrt -- ax25-tools and libax25. 
 
-I use them to do IP-based wireless mesh networking with [batmand](https://www.open-mesh.org/projects/batmand/wiki)  (Layer 3 version of the B.A.T.M.A.N. mesh protocol - IPv4 only) with HC-12 serial RF transceiver modules attached to the serial port of WiFi routers.
+I use them to do IP-based wireless mesh networking with [batmand](https://www.open-mesh.org/projects/batmand/wiki)  (Layer 3 version of the B.A.T.M.A.N. mesh protocol - IPv4 only) with HC-12 serial RF transceiver modules attached to serial ports of WiFi routers.
 
 At the moment, AX.25 kernel support has to be added manually using the *make kernel_menuconfig* command inside the Openwrt build environment.
 
