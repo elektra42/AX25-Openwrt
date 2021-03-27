@@ -6,11 +6,12 @@ I use them to do IP-based wireless mesh networking with [batmand](https://www.op
 
 At the moment, AX.25 kernel support has to be added manually using the *make kernel_menuconfig* command inside the Openwrt build environment.
 
-Go to: Networking support* -> *Amateur Radio support*.
-Enable *Amateur Radio AX.25 Level 2 protocol*
-Go to: *AX.25 network device drivers*
+Choose *Networking support*
+Choose *Amateur Radio support*
+Select *Amateur Radio AX.25 Level 2 protocol*
+Select *AX.25 network device drivers*
 
-For HC-12 or similar serial modules select *Serial port Kiss driver*.
+For HC-12 or similar serial modules, select *Serial port Kiss driver*.
 
 Disable the serial TTY console line in inittab, like this:
 	
